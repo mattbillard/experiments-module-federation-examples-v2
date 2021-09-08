@@ -1,17 +1,16 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const ModuleFederationPlugin =
-  require("webpack").container.ModuleFederationPlugin;
+const { ModuleFederationPlugin } = require("webpack").container;
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index",
   mode: "development",
   devServer: {
+    port: 3001,
     static: {
       directory: path.join(__dirname, "dist"),
     },
-    port: 3001,
   },
+  entry: "./src/index",
   output: {
     publicPath: "auto",
   },
@@ -21,11 +20,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /bootstrap\.tsx$/,
-        loader: "bundle-loader",
-        options: {
-          lazy: true,
-        },
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       },
       {
         test: /\.tsx?$/,

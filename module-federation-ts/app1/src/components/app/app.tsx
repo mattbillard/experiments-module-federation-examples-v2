@@ -1,11 +1,12 @@
 import * as React from "react";
-
-const RemoteButton = React.lazy(() => import("app2/Button"));
+import LocalButton from "../button/button";
+const RemoteButton = React.lazy(() => import("app2/button"));
 
 const App = () => (
   <div>
     <h1>module-federation-ts</h1>
     <h2>App 1</h2>
+    <LocalButton />
     <React.Suspense fallback="Loading Button">
       <RemoteButton />
     </React.Suspense>

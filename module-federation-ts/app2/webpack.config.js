@@ -1,17 +1,16 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const ModuleFederationPlugin =
-  require("webpack").container.ModuleFederationPlugin;
+const { ModuleFederationPlugin } = require("webpack").container;
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index",
   mode: "development",
   devServer: {
+    port: 3002,
     static: {
       directory: path.join(__dirname, "dist"),
     },
-    port: 3002,
   },
+  entry: "./src/index",
   output: {
     publicPath: "auto",
   },
@@ -21,11 +20,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /bootstrap\.tsx$/,
-        loader: "bundle-loader",
-        options: {
-          lazy: true,
-        },
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       },
       {
         test: /\.tsx?$/,
@@ -42,7 +41,7 @@ module.exports = {
       name: "app2",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/Button",
+        "./button": "./src/components/button/button",
       },
       shared: ["react", "react-dom"],
     }),
