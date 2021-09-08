@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --scope @remote-components/* --parallel start",
+    "build": "lerna run --scope @remote-components/* build",
+    "serve": "lerna run --scope @remote-components/* --parallel serve",
+    "clean": "lerna run --scope @remote-components/* --parallel clean"
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
+  }
+}

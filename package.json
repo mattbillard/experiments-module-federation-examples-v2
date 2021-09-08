@@ -8,7 +8,8 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "./module-federation-ts/*"
+      "./module-federation-ts/*",
+      "./remote-components/*"
     ],
     "nohoist": [
       "**/svelte",
