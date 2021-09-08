@@ -8,7 +8,7 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "./typescript/*"
+      "./module-federation-ts/*"
     ],
     "nohoist": [
       "**/svelte",

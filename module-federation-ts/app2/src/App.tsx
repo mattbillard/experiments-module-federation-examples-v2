@@ -4,7 +4,7 @@ import LocalButton from "./Button";
 
 const App = () => (
   <div>
-    <h1>Typescript</h1>
+    <h1>module-federation-ts</h1>
     <h2>App 2</h2>
     <LocalButton />
   </div>

@@ -4,7 +4,7 @@ const RemoteButton = React.lazy(() => import("app2/Button"));
 
 const App = () => (
   <div>
-    <h1>Typescript</h1>
+    <h1>module-federation-ts</h1>
     <h2>App 1</h2>
     <React.Suspense fallback="Loading Button">
       <RemoteButton />
