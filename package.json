@@ -9,6 +9,7 @@
   "workspaces": {
     "packages": [
       "./module-federation-ts/*",
+      "./module-federation-ts-with-router/*",
       "./remote-components/*"
     ],
     "nohoist": [

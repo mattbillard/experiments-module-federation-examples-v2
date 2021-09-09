@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+  },
+  "include": ["src/**/*", "types/app2.d.ts"],
+  "types": ["types/**/*"],
+}

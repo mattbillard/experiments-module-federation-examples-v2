@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --scope @module-federation-ts-with-router/* --parallel start",
+    "build": "lerna run --scope @module-federation-ts-with-router/* build",
+    "serve": "lerna run --scope @module-federation-ts-with-router/* --parallel serve",
+    "clean": "lerna run --scope @module-federation-ts-with-router/* --parallel clean"
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
+  }
+}

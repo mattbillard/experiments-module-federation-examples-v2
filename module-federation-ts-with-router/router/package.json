@@ -1,0 +1,23 @@
+{
+  "name": "@module-federation-ts-with-router/router",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-cli serve",
+    "build": "webpack --mode production && tsc",
+    "serve": "serve dist -p 3001",
+    "clean": "rm -rf dist",
+    "postinstall": "npm run clean && npm run link",
+    "link": "mkdir -p dist && npm run _link:app1 && npm run _link:app2",
+    "_link:app1": "cd dist && ln -sf ../../app1/dist app1",
+    "_link:app2": "cd dist && ln -sf ../../app2/dist app2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.5.2",
+    "serve": "12.0.0",
+    "webpack": "5.52.0",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.1.0"
+  }
+}
