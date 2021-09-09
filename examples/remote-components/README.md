@@ -1,10 +1,20 @@
-# remote-components Example
+# module-federation-ts Example
 
-This example demos a basic host/remote application with remote-components.
+Before Module Federation existed, I experimented with many ways of stitching micro apps into a micro frontend architecture. This was the most successful one and in some ways works very similarly to Module Federation, loading JS and CSS files at runtime and then mounting the React Component. (Note: this solution could easily be adabpted to use the router like the above solution.)
 
-# Running Demo
+## Install
 
-Run `yarn start`. This will build and serve both `app1` and `app2` on ports 3001 and 3002 respectively.
+- Run the following 
+  ```
+  yarn install
+  ```
 
-- [localhost:3001](http://localhost:3001/)
-- [localhost:3002](http://localhost:3002/)
+## Run
+
+- Run the following  
+  ```
+  yarn start
+  ```
+- Open the following in your browser
+  - **app1:** [localhost:3001](http://localhost:3001/)
+  - **app2:** [localhost:3002](http://localhost:3002/)

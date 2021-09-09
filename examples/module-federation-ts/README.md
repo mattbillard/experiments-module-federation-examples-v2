@@ -1,10 +1,20 @@
 # module-federation-ts Example
 
-This example demos a basic host/remote application with TypeScript.
+The [official Module Federation TypeScript example](https://github.com/module-federation/module-federation-examples/tree/master/typescript), with CSS and organized/cleaned up a bit.
 
-# Running Demo
+## Install
 
-Run `yarn start`. This will build and serve both `app1` and `app2` on ports 3001 and 3002 respectively.
+- Run the following 
+  ```
+  yarn install
+  ```
 
-- [localhost:3001](http://localhost:3001/)
-- [localhost:3002](http://localhost:3002/)
+## Run
+
+- Run the following  
+  ```
+  yarn start
+  ```
+- Open the following in your browser
+  - **app1:** [localhost:3001](http://localhost:3001/)
+  - **app2:** [localhost:3002](http://localhost:3002/)
