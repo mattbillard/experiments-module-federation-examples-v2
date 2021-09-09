@@ -4,15 +4,18 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  devServer: {
-    port: 3002,
-    static: {
-      directory: path.join(__dirname, "dist"),
-    },
-    devMiddleware: {
-      writeToDisk: true,
-    },
-  },
+
+  // // NOTE: if you wanted to run this app independently on its own port you could uncomment the following and change the start script back to "webpack-cli serve"
+  // devServer: {
+  //   port: 3002,
+  //   static: {
+  //     directory: path.join(__dirname, "dist"),
+  //   },
+  //   devMiddleware: {
+  //     writeToDisk: true,
+  //   },
+  // },
+
   entry: "./src/index",
   output: {
     publicPath: "/app2/",

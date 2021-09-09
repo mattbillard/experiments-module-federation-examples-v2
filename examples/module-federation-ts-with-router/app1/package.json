@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack-cli serve",
+    "start": "webpack --watch",
     "build": "webpack --mode production && tsc",
     "serve": "serve dist -p 3001",
     "clean": "rm -rf dist"
