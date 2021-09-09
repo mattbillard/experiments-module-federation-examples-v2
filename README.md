@@ -7,7 +7,7 @@ This repo has a few examples
   The [official Module Federation TypeScript example](https://github.com/module-federation/module-federation-examples/tree/master/typescript), with CSS and organized/cleaned up a bit.  
 
 1. **module-federation-ts-with-router**  
-  One potential scaleability problem for Module Federation is that each micro app requires a new port or domain. If you had for example 30 teams and 100 micro apps, it could quickly grow unmanageable. This example serves all the micro apps through one router.  
+  One potential scalability problem for Module Federation is that each micro app requires a new port or domain. If you had for example 30 teams and 100 micro apps, it could quickly grow unmanageable. This example serves all the micro apps through one router.  
 
 1. **remote-components**  
   Before Module Federation existed, I experimented with many ways of stitching micro apps into a micro frontend architecture. This was the most successful one and in some ways works very similarly to Module Federation, loading JS and CSS files at runtime and then mounting the React Component. (Note: this solution could easily be adabpted to use the router like the above solution.)
