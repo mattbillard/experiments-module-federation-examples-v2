@@ -8,9 +8,9 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "./module-federation-ts/*",
-      "./module-federation-ts-with-router/*",
-      "./remote-components/*"
+      "./examples/module-federation-ts/*",
+      "./examples/module-federation-ts-with-router/*",
+      "./examples/remote-components/*"
     ],
     "nohoist": [
       "**/svelte",
