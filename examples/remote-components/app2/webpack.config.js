@@ -9,6 +9,7 @@ module.exports = {
       directory: path.join(__dirname, "dist"),
     },
   },
+  devtool: 'source-map',
   entry: {
     'main': './src/index.tsx',
     'button': './src/components/button/button.tsx',
@@ -31,11 +32,8 @@ module.exports = {
       },
       {
         test: /\.tsx?$/,
-        loader: "babel-loader",
+        loader: "ts-loader",
         exclude: /node_modules/,
-        options: {
-          presets: ["@babel/preset-react", "@babel/preset-typescript"],
-        },
       },
     ],
   },

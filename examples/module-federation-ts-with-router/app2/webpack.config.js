@@ -16,6 +16,7 @@ module.exports = {
   //   },
   // },
 
+  devtool: 'source-map',
   entry: "./src/index",
   output: {
     publicPath: "/app2/",
@@ -34,11 +35,8 @@ module.exports = {
       },
       {
         test: /\.tsx?$/,
-        loader: "babel-loader",
+        loader: "ts-loader",
         exclude: /node_modules/,
-        options: {
-          presets: ["@babel/preset-react", "@babel/preset-typescript"],
-        },
       },
     ],
   },

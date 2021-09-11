@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "emitDeclarationOnly": true,
     "jsx": "react",
-    "moduleResolution": "node",
+    "module": "esnext",
     "outDir": "./dist/",
     "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
     "sourceMap": true,
     "strict": true,
   },
