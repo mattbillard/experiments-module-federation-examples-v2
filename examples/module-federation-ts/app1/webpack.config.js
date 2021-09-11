@@ -10,6 +10,7 @@ module.exports = {
       directory: path.join(__dirname, "dist"),
     },
   },
+  devtool: 'source-map',
   entry: "./src/index",
   output: {
     publicPath: "auto",
