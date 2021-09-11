@@ -4,7 +4,7 @@ Experiments building on these official [Module Federation examples](https://gith
 
 This repo has a few examples
 1. **module-federation-ts**  
-  The [official Module Federation TypeScript example](https://github.com/module-federation/module-federation-examples/tree/master/typescript), with CSS and organized/cleaned up a bit.  
+  The [official Module Federation TypeScript example](https://github.com/module-federation/module-federation-examples/tree/master/typescript), with CSS, ts-loader (to output types), and organized/cleaned up a bit.  
 
 1. **module-federation-ts-with-router**  
   One potential scalability problem for Module Federation is that each micro app requires a new port or domain. If you had for example 30 teams and 100 micro apps, it could quickly grow unmanageable. This example serves all the micro apps through one router.  

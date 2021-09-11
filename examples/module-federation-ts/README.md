@@ -1,6 +1,6 @@
 # module-federation-ts Example
 
-The [official Module Federation TypeScript example](https://github.com/module-federation/module-federation-examples/tree/master/typescript), with CSS and organized/cleaned up a bit.
+The [official Module Federation TypeScript example](https://github.com/module-federation/module-federation-examples/tree/master/typescript), with CSS, ts-loader (to output types), and organized/cleaned up a bit.  
 
 ## Install
 
