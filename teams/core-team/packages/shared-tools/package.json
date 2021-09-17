@@ -1,0 +1,35 @@
+{
+  "name": "@company/core-team__shared-tools",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/main.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mattfin-local-router": "./src/bin/mattfin-local-router/mattfin-local-router.js",
+    "mattfin-pack": "./src/bin/mattfin-pack/mattfin-pack.js"
+  },
+  "scripts": {
+    "build": "node ./src/bin/mattfin-pack/mattfin-pack.js build --mode production",
+    "clean": "rm -rf dist",
+    "start": "node ./src/bin/mattfin-pack/mattfin-pack.js serve"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "9.0.1",
+    "css-loader": "6.2.0",
+    "dts-css-modules-loader": "1.2.3",
+    "html-webpack-plugin": "5.3.2",
+    "lodash": "4.17.21",
+    "mini-css-extract-plugin": "1.3.5",
+    "node-sass": "5.0.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "sass-loader": "11.0.0",
+    "style-loader": "3.2.1",
+    "ts-loader": "9.2.5",
+    "webpack": "5.52.0",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.1.0",
+    "yargs": "17.1.1"
+  },
+  "devDependencies": {}
+}

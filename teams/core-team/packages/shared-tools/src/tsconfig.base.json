@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "jsx": "react",
+    "module": "esnext",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    "allowSyntheticDefaultImports": true
+  }
+}

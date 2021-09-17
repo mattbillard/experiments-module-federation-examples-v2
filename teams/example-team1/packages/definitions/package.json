@@ -1,0 +1,21 @@
+{
+  "name": "@company/example-team1__definitions",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/main.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "mattfin-pack serve",
+    "build": "mattfin-pack build --mode production",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@company/core-team__shared-tools": "0.0.0",
+    "@webpack-cli/serve": "1.5.2",
+    "serve": "12.0.0",
+    "webpack": "5.52.0",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.1.0"
+  }
+}

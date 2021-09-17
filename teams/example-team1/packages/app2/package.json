@@ -1,0 +1,24 @@
+{
+  "name": "@company/example-team1__app2",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/assets/example-team1__app2/main.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "mattfin-pack serve",
+    "build": "mattfin-pack build --mode production",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@company/core-team__shared-tools": "0.0.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-router-dom": "5.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.19",
+    "@types/react-dom": "17.0.9",
+    "@types/react-router-dom": "5.1.9",
+    "typescript": "4.3.5"
+  }
+}

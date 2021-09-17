@@ -1,0 +1,11 @@
+{
+  "name": "@company/example-team1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "mattfin-local-router"
+  },
+  "dependencies": {
+    "@company/core-team__shared-tools": "0.0.0"
+  }
+}
