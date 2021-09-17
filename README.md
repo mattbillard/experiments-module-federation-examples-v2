@@ -1,4 +1,4 @@
-# Module Federation Examples
+# experiments-module-federation-examples
 
 Experiments building on these official [Module Federation examples](https://github.com/module-federation/module-federation-examples)
 
