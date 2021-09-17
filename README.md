@@ -125,3 +125,6 @@ Thanks to Lerna and Yarn workspaces, you only need to run one install command
   ```
   yarn run format
   ```
+
+## Screenshot
+![Screenshot](./screenshot.png)
