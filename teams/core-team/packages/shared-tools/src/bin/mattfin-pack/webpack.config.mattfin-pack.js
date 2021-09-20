@@ -70,7 +70,7 @@ module.exports = (appDir, mode = 'development', webpackConfigs) => {
         {
           test: /\.tsx?$/,
           loader: 'ts-loader',
-          // exclude: /node_modules/, // NOTE: commenting this out allows us to import from a node_module's src
+          exclude: /node_modules/, // NOTE: commenting this out would allow you to import from a node_module's src
         },
       ],
     },
