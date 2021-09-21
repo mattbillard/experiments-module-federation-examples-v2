@@ -8,8 +8,8 @@ const webpackConfigMixin = {
     index: './src/index',
   },
   output: {
-    path: path.resolve(__dirname, 'dist/assets/example-team1__definitions'),
-    publicPath: '/assets/example-team1__definitions/',
+    path: path.resolve(__dirname, 'dist/assets/example-team1_definitions'),
+    publicPath: '/assets/example-team1_definitions/',
   },
 };
 

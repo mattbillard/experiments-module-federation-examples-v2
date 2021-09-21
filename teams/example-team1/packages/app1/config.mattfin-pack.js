@@ -8,13 +8,13 @@ const webpackConfigMixin = {
     index: './src/index',
   },
   output: {
-    path: path.resolve(__dirname, 'dist/assets/example-team1__app1'),
-    publicPath: '/assets/example-team1__app1/',
+    path: path.resolve(__dirname, 'dist/assets/example-team1_app1'),
+    publicPath: '/assets/example-team1_app1/',
   },
 };
 
 const modFedPluginConfig = {
-  name: 'exampleTeam1__app1',
+  name: 'exampleTeam1_app1',
   filename: 'remoteEntry.js',
   exposes: {
     './app': './src/components/app/app',

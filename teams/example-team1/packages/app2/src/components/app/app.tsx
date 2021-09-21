@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ButtonSharedTools } from '@company/core-team__shared-tools';
+import { ButtonSharedTools } from '@company/core-team_shared-tools';
 import { ButtonApp2 } from '../button/button';
 
 export const App2 = () => {

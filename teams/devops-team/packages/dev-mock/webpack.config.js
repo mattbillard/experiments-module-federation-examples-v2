@@ -23,7 +23,7 @@ module.exports = (env = {}) => {
       host: '0.0.0.0',
       hot: false,
       historyApiFallback: {
-        index: '/assets/core-team__site/index.html',
+        index: '/assets/core-team_site/index.html',
       },
       liveReload: false,
       static: {

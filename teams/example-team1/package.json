@@ -6,6 +6,6 @@
     "start": "mattfin-local-router"
   },
   "dependencies": {
-    "@company/core-team__shared-tools": "0.0.0"
+    "@company/core-team_shared-tools": "0.0.0"
   }
 }

@@ -3,11 +3,11 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Link, Route, Switch, RouteProps, Redirect } from 'react-router-dom';
 
-import { ButtonSharedTools, DynamicModFedLoader } from '@company/core-team__shared-tools';
-import '@company/core-team__shared-tools/dist/index.css'; // Need to import CSS
+import { ButtonSharedTools, DynamicModFedLoader } from '@company/core-team_shared-tools';
+import '@company/core-team_shared-tools/dist/index.css'; // Need to import CSS
 
 // TODO: figure out how an app can have both module federation and output to dist
-import { TypedSelfFetchingButton1 } from '@company/example-team1__app1/src/remote-exports';
+import { TypedSelfFetchingButton1 } from '@company/example-team1_app1/src/remote-exports';
 
 import { ButtonSite } from '../button/button';
 import logo1 from '../../../public/logo.svg';
@@ -16,8 +16,8 @@ import teamDefinitions from '../../../public/team-definition-urls.json';
 import './app.scss';
 
 // TODO: the module federation community is still figuring out the best way to do types. For now, these are hand-coded in /core-team/site/types/
-const ButtonApp1 = React.lazy(() => import('exampleTeam1__app1/button'));
-const ButtonApp2 = React.lazy(() => import('exampleTeam1__app2/button'));
+const ButtonApp1 = React.lazy(() => import('exampleTeam1_app1/button'));
+const ButtonApp2 = React.lazy(() => import('exampleTeam1_app2/button'));
 
 export const AppSite = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -52,7 +52,7 @@ export const AppSite = () => {
 
         <h3>Proving Webpack Can Handle Various File Types</h3>
         <img src={logo1} className="logo-svg" /> - Example SVG <br />
-        <img src="/assets/core-team__site/logo.png" className="logo-png" /> - Example PNG
+        <img src="/assets/core-team_site/logo.png" className="logo-png" /> - Example PNG
         <br />
         <br />
        

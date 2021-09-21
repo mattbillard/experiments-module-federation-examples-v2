@@ -1,8 +1,8 @@
 {
-  "name": "@company/example-team1__app1",
+  "name": "@company/example-team1_app1",
   "version": "0.0.0",
   "private": true,
-  "main": "dist/assets/example-team1__app1/index.js",
+  "main": "dist/assets/example-team1_app1/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "mattfin-pack serve",
@@ -10,7 +10,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@company/core-team__shared-tools": "0.0.0",
+    "@company/core-team_shared-tools": "0.0.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-router-dom": "5.3.0"

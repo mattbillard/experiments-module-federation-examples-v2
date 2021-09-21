@@ -1,11 +1,11 @@
 {
-  "extends": "../../../../node_modules/@company/core-team__shared-tools/src/tsconfig.base.json",
+  "extends": "../../../../node_modules/@company/core-team_shared-tools/src/tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist/"
   },
   "include": [
     "src/**/*",
     "types/**/*",
-    "../../../../node_modules/@company/core-team__shared-tools/types/**/*"
+    "../../../../node_modules/@company/core-team_shared-tools/types/**/*"
   ]
 }

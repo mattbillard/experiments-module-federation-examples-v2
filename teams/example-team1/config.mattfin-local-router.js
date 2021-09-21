@@ -12,13 +12,13 @@
 // prettier-ignore
 const proxiesHashMap = {
   // This team's code
-  '/assets/example-team1__app1/':         'http://localhost:1101',
-  '/assets/example-team1__app2/':         'http://localhost:1102',
-  '/assets/example-team1__definitions/':  'http://localhost:1103',
+  '/assets/example-team1_app1/':         'http://localhost:1101',
+  '/assets/example-team1_app2/':         'http://localhost:1102',
+  '/assets/example-team1_definitions/':  'http://localhost:1103',
   
   // Other team's code if you need to work on multiple repos at once
-  // '/assets/core-team__site/':             'http://localhost:1002',
-  // '/site-url':                            'http://localhost:1002',
+  // '/assets/core-team_site/':             'http://localhost:1002',
+  // '/site-url':                           'http://localhost:1002',
 
   // Everything else comes from dev environment
   '/':                                    'http://localhost:2000', 

@@ -3,24 +3,24 @@
     {
       "text": "App1",
       "url": "/site-url/example-team1-url/app1-url",
-      "modFedComponentId": "exampleTeam1__app1"
+      "modFedComponentId": "exampleTeam1_app1"
     },
     {
       "text": "App2",
       "url": "/site-url/example-team1-url/app2-url",
-      "modFedComponentId": "exampleTeam1__app2"
+      "modFedComponentId": "exampleTeam1_app2"
     }
   ],
   "dynamicModFedComponents": {
-    "exampleTeam1__app1": {
-      "scope": "exampleTeam1__app1",
+    "exampleTeam1_app1": {
+      "scope": "exampleTeam1_app1",
       "module": "./app",
-      "remoteEntryUrl": "/assets/example-team1__app1/remoteEntry.js"
+      "remoteEntryUrl": "/assets/example-team1_app1/remoteEntry.js"
     },
-    "exampleTeam1__app2": {
-      "scope": "exampleTeam1__app2",
+    "exampleTeam1_app2": {
+      "scope": "exampleTeam1_app2",
       "module": "./app",
-      "remoteEntryUrl": "/assets/example-team1__app2/remoteEntry.js"
+      "remoteEntryUrl": "/assets/example-team1_app2/remoteEntry.js"
     }
   }
 }

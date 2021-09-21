@@ -1,5 +1,5 @@
 {
-  "name": "@company/example-team1__definitions",
+  "name": "@company/example-team1_definitions",
   "version": "0.0.0",
   "private": true,
   "main": "dist/main.js",
@@ -11,7 +11,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@company/core-team__shared-tools": "0.0.0",
+    "@company/core-team_shared-tools": "0.0.0",
     "@webpack-cli/serve": "1.5.2",
     "serve": "12.0.0",
     "webpack": "5.52.0",

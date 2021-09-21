@@ -113,11 +113,12 @@ Thanks to Lerna and Yarn workspaces, you only need to run one install command
   - Run build. After it is done, all 3 URLs will pick up both sets of changes.
 - Although they won't be fully functional, it is interesting to know you can also open the following
   - core-team
-    - site: http://localhost:1002/assets/core-team\_\_site/
+    - site: http://localhost:1002/assets/core-team_site/
   - example-team1
-    - definitions: http://localhost:1103/assets/example-team1\_\_definitions/definitions.json
-    - app1: http://localhost:1101/assets/example-team1\_\_app1/
-    - app2: http://localhost:1102/assets/example-team1\_\_app2/
+    - definitions:
+      http://localhost:1103/assets/example-team1_definitions/nav-and-component-definitions.json
+    - app1: http://localhost:1101/assets/example-team1_app1/
+    - app2: http://localhost:1102/assets/example-team1_app2/
 
 ## Other Commands
 
@@ -127,4 +128,5 @@ Thanks to Lerna and Yarn workspaces, you only need to run one install command
   ```
 
 ## Screenshot
+
 ![Screenshot](./screenshot.png)

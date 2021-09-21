@@ -1,8 +1,8 @@
 {
-  "name": "@company/core-team__site",
+  "name": "@company/core-team_site",
   "version": "0.0.0",
   "private": true,
-  "main": "dist/assets/core-team__site/index.js",
+  "main": "dist/assets/core-team_site/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "mattfin-pack serve",
@@ -10,9 +10,9 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@company/core-team__shared-tools": "0.0.0",
-    "@company/example-team1__app1": "0.0.0",
-    "@company/example-team1__app2": "0.0.0",
+    "@company/core-team_shared-tools": "0.0.0",
+    "@company/example-team1_app1": "0.0.0",
+    "@company/example-team1_app2": "0.0.0",
     "lodash": "4.17.21",
     "react": "16.13.0",
     "react-dom": "16.13.0",
