@@ -79,7 +79,7 @@ export interface IDynamicModFedLoader {
 }
 
 export const DynamicModFedLoader = (props: IDynamicModFedLoader) => {
-  const { module, scope, remoteEntryUrl } = props;
+  const { module, scope, remoteEntryUrl, ...otherProps } = props;
   const { ready, failed } = useDynamicScript(remoteEntryUrl);
 
   if (!props) return <span>Error: no system specified</span>;
@@ -90,7 +90,23 @@ export const DynamicModFedLoader = (props: IDynamicModFedLoader) => {
 
   return (
     <React.Suspense fallback="Loading...">
-      <Component />
+      <Component {...otherProps} />
     </React.Suspense>
   );
 };
+
+export const provideDynamicModFedLoader = function<T>(scope: string, module: string, remoteEntryUrl: string) {
+  const RemoteComponent = (props: T) => {
+    // prettier-ignore
+    return (
+      <DynamicModFedLoader 
+        scope={scope}
+        module={module}
+        remoteEntryUrl={remoteEntryUrl}
+        {...props}
+      />
+    );
+  }
+
+  return RemoteComponent;
+}  

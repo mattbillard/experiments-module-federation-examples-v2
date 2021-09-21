@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@company/core-team__shared-tools": "0.0.0",
+    "@company/example-team1__app1": "0.0.0",
+    "@company/example-team1__app2": "0.0.0",
     "lodash": "4.17.21",
     "react": "16.13.0",
     "react-dom": "16.13.0",

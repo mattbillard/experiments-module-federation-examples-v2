@@ -6,6 +6,9 @@ import { BrowserRouter, Link, Route, Switch, RouteProps, Redirect } from 'react-
 import { ButtonSharedTools, DynamicModFedLoader } from '@company/core-team__shared-tools';
 import '@company/core-team__shared-tools/dist/index.css'; // Need to import CSS
 
+// TODO: figure out how an app can have both module federation and output to dist
+import { TypedSelfFetchingButton1 } from '@company/example-team1__app1/src/remote-exports';
+
 import { ButtonSite } from '../button/button';
 import logo1 from '../../../public/logo.svg';
 import teamDefinitions from '../../../public/team-definition-urls.json';
