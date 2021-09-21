@@ -2,7 +2,7 @@
   "name": "@company/example-team1__app2",
   "version": "0.0.0",
   "private": true,
-  "main": "dist/assets/example-team1__app2/main.js",
+  "main": "dist/assets/example-team1__app2/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "mattfin-pack serve",

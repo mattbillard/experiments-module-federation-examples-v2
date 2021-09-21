@@ -4,6 +4,9 @@ const webpackConfigMixin = {
   devServer: {
     port: 1102,
   },
+  entry: {
+    index: './src/index',
+  },
   output: {
     path: path.resolve(__dirname, 'dist/assets/example-team1__app2'),
     publicPath: '/assets/example-team1__app2/',

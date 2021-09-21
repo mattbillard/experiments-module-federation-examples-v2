@@ -21,7 +21,6 @@ module.exports = (appDir, mode = 'development', webpackConfigs) => {
       },
     },
     devtool: 'source-map',
-    entry: './src/index',
     mode,
     module: {
       rules: [
@@ -75,8 +74,8 @@ module.exports = (appDir, mode = 'development', webpackConfigs) => {
       ],
     },
     output: {
+      filename: '[name].js',
       libraryTarget: 'umd',
-      // filename: '[name].js',
     },
     plugins: [
       new MiniCssExtractPlugin(),

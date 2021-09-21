@@ -7,12 +7,15 @@ const webpackConfigMixin = {
     },
     port: 1001,
   },
+  entry: {
+    index: './src/index',
+  },
   externals: {
     /**
      * NOTE:
      * When building a React component to dist and then importing it into another package, you need to exclude react and react-dom or you will get errors about having multiple versions of React and violating the rule of hooks
      *
-     * Also, does not work if you want to also export code as Module Federation
+     * Also, does not work if you want to both write to dist and output for module federation
      */
     react: {
       commonjs: 'react',

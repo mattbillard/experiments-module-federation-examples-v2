@@ -2,7 +2,7 @@
   "name": "@company/core-team__site",
   "version": "0.0.0",
   "private": true,
-  "main": "dist/assets/core-team__site/main.js",
+  "main": "dist/assets/core-team__site/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "mattfin-pack serve",

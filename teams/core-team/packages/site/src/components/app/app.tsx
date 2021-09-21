@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter, Link, Route, Switch, RouteProps, Redirect } from 'react-router-dom';
 
 import { ButtonSharedTools, DynamicModFedLoader } from '@company/core-team__shared-tools';
-import '@company/core-team__shared-tools/dist/main.css'; // Need to import CSS
+import '@company/core-team__shared-tools/dist/index.css'; // Need to import CSS
 
 import { ButtonSite } from '../button/button';
 import logo1 from '../../../public/logo.svg';
@@ -43,6 +43,7 @@ export const AppSite = () => {
           <ButtonApp1 /> - imported from app1 via module federation hardcoded in webpack config<br />
           <ButtonApp2 /> - imported from app2 via module federation hardcoded in webpack config<br />
         </React.Suspense>
+        <TypedSelfFetchingButton1 text="TypedSelfFetchingButton1" /> - supports TypeScript and fetches itself with no configuration
         <br />
         <br /> 
 

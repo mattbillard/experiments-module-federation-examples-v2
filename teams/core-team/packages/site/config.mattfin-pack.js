@@ -7,6 +7,9 @@ const webpackConfigMixin = {
     },
     port: 1002,
   },
+  entry: {
+    index: './src/index',
+  },
   output: {
     path: path.resolve(__dirname, 'dist/assets/core-team__site'),
     publicPath: '/assets/core-team__site/',
